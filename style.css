@@ -2,8 +2,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    border: 2px solid black;
+    
   }
+.logo img{
+    margin-left: 14%;
+}
   
 .profile_img{
     width: 60px;
@@ -15,6 +18,26 @@
     padding: 3px;
     background-image: linear-gradient(to right top, #f02627, #f85716, #fc7c00, #fc9d00, #f9bc00, #fcb107, #fea611, #ff9b1a, #f5653a, #d73552, #a81061, #6d0d65) 1;
 }
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    gap: 5px;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+
+}
+
+a{
+    color: black;
+    width: 50%;
+    text-decoration: none;
+}
+
 
 /* .profile-div{
     background-image: linear-gradient(to right top, #f02627, #f85716, #fc7c00, #fc9d00, #f9bc00, #fcb107, #fea611, #ff9b1a, #f5653a, #d73552, #a81061, #6d0d65);
@@ -32,7 +55,7 @@
 /* nav bar */
 .nav_section_one{
     height: 100%;
-    width: 160px;
+    width: 250px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -40,13 +63,14 @@
     background-color: rgb(255, 255, 255);
     overflow-x: hidden;
     padding-top: 20px;
+    border: 1px solid black;
 }
 
 /* main section */
 .main_section{
     display: flex;
     justify-content: center; 
-    gap: 40px;
+    width: 120%;
 }
 
 .new_post{
@@ -73,9 +97,12 @@
     border-radius: 10px;
     margin-top: 20px;
     padding: 15px;
+    border: 1px solid black;
+    width: 82%;
 }
 .flex_suggestions{
     display: flex;
+    justify-content: flex-start;
     align-items: center;
     gap: 30px;
 }
@@ -87,5 +114,5 @@
 .section_post{
     display: flex;
     flex-direction: column;
-    width: 46%;
+    width: 38%;
 }
