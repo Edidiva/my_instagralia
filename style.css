@@ -7,6 +7,13 @@
 .logo img{
     margin-left: 14%;
 }
+
+.profile_photo{
+width: 20px;
+height: 20px;
+border-radius: 50%;
+
+}
   
 .profile_img{
     width: 60px;
@@ -69,50 +76,165 @@ a{
 /* main section */
 .main_section{
     display: flex;
-    justify-content: center; 
+    justify-content:center; 
     width: 120%;
+    position: relative;
+    background-color: rgb(246, 247, 247);
+
 }
 
 .new_post{
   position: fixed;
-  padding: 10px;
+  padding: 6px;
   border: 1px solid rgb(171, 177, 182);
   border-radius: 20px;
   background-color: white;
-  width:8%;
+  width:7%;
   text-align: center;
+  left: 47%;
+  font-size: 14px;
+  z-index: 2;
 
 }
 
 .post_image{
-    width: 500px;
+    width: 468px;
     height: 650px;
-    padding: 50px 0px;
     object-fit: cover;
+    
 }
 /* status */
 .status_bar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     border-radius: 10px;
     margin-top: 20px;
-    padding: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
     border: 1px solid black;
-    width: 82%;
+    width: 100%;
+
 }
 .flex_suggestions{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
+
+}
+
+.flex-suggestion-span{
+  position: absolute;
+  top: 30%;
+  margin-left: 10px;
+  
+
+
+}
+
+.section_suggestions{
+    width: 10vw;
+    margin-top: 2%;
+    position: absolute;
+    top: 10px;
+    left: 67%;
+
+}
+
+.svg_container{
+    display: flex;
+    gap: 78%;
+    
+    
+}
+
+.comment{
+    padding-top: 10px;
+}
+
+.view{
+    color:rgb(142, 142, 142) ;
+}
+
+.flex-comment{
+  display: flex;
+  gap: 61%;
+}
+
+.side-love{
+    width: 15px;
+    height: 15px;
+}
+
+.time{
+    font-size: 10px;
+    margin-top: 20px;
+    color: rgb(142, 142, 142) ;
 }
 
 .more{
     padding-top: 50px;
 }
 
+
+.post{
+   width: 100%;
+   border: 1px solid black;
+   border-radius: 10px;
+   padding-bottom: 5px;
+   
+
+}
+
+.input_div{
+    border-top:1px solid rgb(142, 142, 142);
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+    
+}
+
+.input_div>a{
+    width: 10%;
+    color: rgb(22, 215, 222, 0.3);
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+
+.input_div input{
+    border: none;
+    width: 90%;
+}
+
+.post p{
+    margin: 0px 10px ;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.profile-intro{
+    display:flex;
+
+}
+
 .section_post{
     display: flex;
     flex-direction: column;
-    width: 38%;
+    width: 29%;
+    position: relative;
+    left: -190px;
+    gap: 10px;
+
+}
+
+.sug_img{
+
+    border: none;
 }
