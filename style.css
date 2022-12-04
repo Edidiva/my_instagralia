@@ -20,10 +20,10 @@ border-radius: 50%;
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    border-width: 4px;
+    border-width: 2px;
     border-style: solid;
-    border-color: #d73552;
-    padding: 3px;
+    border-color:#d73552;
+    padding: 2px;
     background-image: linear-gradient(to right top, #f02627, #f85716, #fc7c00, #fc9d00, #f9bc00, #fcb107, #fea611, #ff9b1a, #f5653a, #d73552, #a81061, #6d0d65) 1;
 }
 
@@ -164,6 +164,10 @@ a{
     width: 12%;
 }
 
+.second p{
+    color: rgb(142, 142, 142);
+}
+
 .small-font{
     font-size: 12px;
     color: rgb(142, 142, 142);
@@ -195,7 +199,7 @@ a{
 
 .svg_container{
     display: flex;
-    gap: 78%;
+    gap: 72%;
     
     
 }
@@ -249,6 +253,7 @@ a{
     
 }
 
+
 .input_div>a{
     width: 10%;
     color: rgb(22, 215, 222, 0.3);
@@ -261,6 +266,7 @@ a{
 .input_div input{
     border: none;
     width: 90%;
+    margin-left: 10px;
 }
 
 .post p{
@@ -292,4 +298,43 @@ a{
 .sug_img{
 
     border: none;
+}
+
+footer{
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(199, 199, 199);
+
+    
+}
+
+.footer-links a{
+    color:rgb(199, 199, 199);
+    
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    height: 20px;
+    width: 100%;
+    
+}
+
+.part-footer-links {
+    margin-bottom: 15px;
+    color: rgb(199, 199, 199);
+
+}
+.part-footer-links a{
+    color:rgb(199, 199, 199);
+    
+}
+
+.svg-container-first{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 }
