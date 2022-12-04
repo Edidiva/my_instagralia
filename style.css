@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: sans-serif;
     
   }
 .logo img{
@@ -55,7 +56,7 @@ a{
 } */
 
 .post_image{
-    width: 300px;
+    width: inherit;
     height: 350px;
 }
 
@@ -70,7 +71,7 @@ a{
     background-color: rgb(255, 255, 255);
     overflow-x: hidden;
     padding-top: 20px;
-    border: 1px solid black;
+    border: 1px solid rgb(219, 211, 211);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -120,33 +121,75 @@ a{
     margin-top: 20px;
     padding-top: 10px;
     padding-left: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(219, 211, 211);
     width: 100%;
 
 }
+
+.small-fonts{
+    font-size: 12px;
+    text-align: center;
+}
 .flex_suggestions{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 5%;
+    font-size: 14px;
+    margin-bottom: 20px;
 
 }
 
-.flex-suggestion-span{
+.flex_suggestions a{
+    color: rgb(0, 149, 246);
+    font-weight:600;
+}
+
+.first a{
+    margin-left: 29%;
+    
+
+}
+
+.second {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+
+}
+
+.second a{
+
+    width: 12%;
+}
+
+.small-font{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+}
+
+/* .flex-suggestion-span{
   position: absolute;
   top: 30%;
   margin-left: 10px;
   
 
 
-}
+} */
 
 .section_suggestions{
-    width: 10vw;
     margin-top: 2%;
     position: absolute;
     top: 10px;
-    left: 67%;
+    left: 55%;
+    width: 20%;
+
+
+}
+
+.text-div{
+    width: 300%;
 
 }
 
@@ -188,7 +231,7 @@ a{
 
 .post{
    width: 100%;
-   border: 1px solid black;
+   border: 1px solid rgb(219, 211, 211);
    border-radius: 10px;
    padding-bottom: 5px;
    
@@ -196,10 +239,12 @@ a{
 }
 
 .input_div{
-    border-top:1px solid rgb(142, 142, 142);
+    border-top:1px solid rgb(231, 225, 225);
     display: flex;
     align-items: center;
     margin-top: 10px;
+    padding: 10px;
+
     
     
 }
@@ -209,6 +254,7 @@ a{
     color: rgb(22, 215, 222, 0.3);
     font-weight: 600;
     font-size: 14px;
+    
     
 }
 
