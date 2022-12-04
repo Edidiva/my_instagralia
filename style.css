@@ -5,6 +5,11 @@
     font-family: sans-serif;
     
   }
+body{
+    max-width: 1440px;
+}
+
+
 .logo img{
     margin-left: 14%;
 }
