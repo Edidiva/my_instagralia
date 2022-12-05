@@ -250,13 +250,14 @@ li{
     background-color: white;
     position: absolute;
     display: none;
+    font-size: 14px;
+    font-weight: 400;
     
 }
 
 .pop-up{
     display: flex;
     justify-content: flex-start;
-    font-size: 12px;
     padding: 15px;
     
 }
@@ -276,7 +277,6 @@ li{
     border-top: 1px solid rgb(199, 199, 199);
     justify-content: space-around;
     color: rgb(142, 142, 142);
-    font-size: 12px;
     padding: 10px;
 
     
@@ -298,6 +298,7 @@ li{
     display: flex;
     justify-content: space-around;
     margin: 10px;
+
 }
 
 .popup-button button{
@@ -306,6 +307,8 @@ li{
     border-radius: 5px;
     font-size: 14px;
     border: 1px solid rgb(199, 199, 199);
+    background-color: white;
+    font-weight: 600;
 
 }
 
