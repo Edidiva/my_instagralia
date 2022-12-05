@@ -5,9 +5,9 @@
     font-family: sans-serif;
     
   }
-body{
+/* body{
     max-width: 1440px;
-}
+} */
 
 
 .logo img{
@@ -68,7 +68,7 @@ a{
 /* nav bar */
 .nav_section_one{
     height: 100%;
-    width: 250px;
+    width: 18%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -121,7 +121,7 @@ li{
     display: flex;
     justify-content:center; 
     width: 120%;
-    position: relative;
+    position: fixed;
     background-color: rgb(250, 255, 255);
     margin: auto;
 
@@ -133,11 +133,13 @@ li{
   border: 1px solid rgb(171, 177, 182);
   border-radius: 20px;
   background-color: white;
-  width:7%;
   text-align: center;
-  left: 47%;
   font-size: 14px;
   z-index: 2;
+  margin: auto;
+  left: 50%;
+
+
 
 }
 
@@ -153,9 +155,10 @@ li{
  }
 
 .post_image{
-    width: 468px;
+    width: inherit;
     height: 650px;
     object-fit: cover;
+
     
 }
 
@@ -181,6 +184,18 @@ li{
     font-size: 12px;
     text-align: center;
 }
+
+.section_suggestions{
+    margin-top: 2%;
+    position: absolute;
+    top: 10px;
+    left: 55%; 
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+
+}
 .flex_suggestions{
     display: flex;
     justify-content: space-between;
@@ -188,6 +203,7 @@ li{
     gap: 5%;
     font-size: 14px;
     margin-bottom: 20px;
+    width: 100%;
 
 }
 
@@ -195,6 +211,8 @@ li{
     color: rgb(0, 149, 246);
     font-weight:600;
 }
+
+
 
 .first a{
     margin-left: 29%;
@@ -213,6 +231,7 @@ li{
 .second a{
 
     width: 12%;
+    color: black;
 }
 
 .second p{
@@ -298,15 +317,7 @@ li{
        left: 48px;
 }
 
-.section_suggestions{
-    margin-top: 2%;
-    position: absolute;
-    top: 10px;
-    left: 55%;
-    width: 20%;
 
-
-}
 
 .text-div{
     width: 300%;
@@ -404,6 +415,8 @@ li{
 
 }
 
+
+
 .sug_img{
 
     border: none;
@@ -447,3 +460,4 @@ footer{
     justify-content: space-between;
     gap: 10px;
 }
+
